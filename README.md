@@ -103,7 +103,7 @@ export const patterns = [
 ]
 ```
 
-2. Демонстрация работы сценариев без циклов на примере <code>lightComponent</code>>:
+2. Демонстрация работы сценариев без циклов на примере <code>lightComponent</code>:
 
 *До использования сценария:*
 ![](https://xeon.fun/reactInspector/attachments/exampleDefaultLight.jpg)
@@ -410,7 +410,7 @@ export const patterns = [
 ]
 ```
 
-2. Demonstration of the work of scripts without loops by example <code>lightComponent</code>>:
+2. Demonstration of the work of scripts without loops by example <code>lightComponent</code>:
 
 *Before using the script:*
 ![](https://xeon.fun/reactInspector/attachments/exampleDefaultLight.jpg)
