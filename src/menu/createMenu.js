@@ -8,7 +8,7 @@ export const menuStyles = () => {
         @keyframes fadeOut{from{opacity:1;}to{opacity:0;}}
         #search-menu-background{animation:fadeIn .5s forwards;}
         #search-menu-background.fadeOut{animation:fadeOut .5s forwards;}
-        #menu-container{background:rgba(0,0,0,.2);outline:none;padding:1rem;border-radius:1.2rem;border:.150rem solid rgba(255,255,255,.2);box-shadow:0 0 1rem .1rem rgba(0,0,0,.6),inset 0 0 .5rem .15rem rgba(0,0,0,.3);max-width:41%;width:100%;text-align:center;display:flex;flex-direction:column;align-items:center;}
+        #menu-container{background:rgba(0,0,0,.2);outline:none;padding:1rem;border-radius:1.2rem;border:.150rem solid rgba(255,255,255,.2);box-shadow:0 0 1rem .1rem rgba(0,0,0,.6),inset 0 0 .5rem .15rem rgba(0,0,0,.3);width:50%;text-align:center;display:flex;flex-direction:column;align-items:center;}
         #menu-header{margin:0;margin-bottom:1rem;color:white;font-size:1.6rem;}
         #menu-content{display:flex;flex-direction:row;align-items:center;justify-content:center;width:100%;margin-bottom:1rem;}
         #menu-checkbox-container{display:flex;justify-content:space-around;width:100%;margin:0;margin-bottom:.1rem;flex-wrap:nowrap;}

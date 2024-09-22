@@ -57,7 +57,6 @@ export const actions = [
     /* припасы */
     {   /* ядерка */
         pattern: 'suppliesComponent',
-        battle: true,
         keyCode: 96, /* нам0 */
         child: '1',
         children: [
@@ -72,7 +71,6 @@ export const actions = [
     },
     {   /* аптечка */
         pattern: 'suppliesComponent',
-        battle: true,
         keyCode: 96, /* нам0 */
         child: '2',
         children: [
@@ -87,7 +85,6 @@ export const actions = [
     },
     {   /* да */
         pattern: 'suppliesComponent',
-        battle: true,
         keyCode: 96, /* нам0 */
         child: '3',
         children: [
@@ -102,7 +99,6 @@ export const actions = [
     },
     {   /* дд */
         pattern: 'suppliesComponent',
-        battle: true,
         keyCode: 96, /* нам0 */
         child: '4',
         children: [
@@ -117,7 +113,6 @@ export const actions = [
     },
     {   /* нитро */
         pattern: 'suppliesComponent',
-        battle: true,
         keyCode: 96, /* нам0 */
         child: '5',
         children: [
@@ -132,7 +127,6 @@ export const actions = [
     },
     {   /* мина */
         pattern: 'suppliesComponent',
-        battle: true,
         keyCode: 96, /* нам0 */
         child: '6',
         children: [
@@ -147,7 +141,6 @@ export const actions = [
     },
     {   /* голд */
         pattern: 'suppliesComponent',
-        battle: true,
         keyCode: 96, /* нам0 */
         child: '7',
         children: [
@@ -162,7 +155,6 @@ export const actions = [
     },
     {   /* граната */
         pattern: 'suppliesComponent',
-        battle: true,
         keyCode: 96, /* нам0 */
         child: '8',
         children: [
