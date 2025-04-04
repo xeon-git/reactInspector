@@ -23,7 +23,9 @@
 - <code>F9</code> - Показ/скрытие меню с различными видами поиска
 - <code>F1</code> - Вывод в консоль компонента с освещением
 - <code>F7</code> - Активация сеттинга с освещением на карте
-- <code>F8</code> - Активация циклического перемещения источника света
+- <code>Numpad0</code> - Активация смены припасов в битве
+- <code>Numpad8</code> - Активация вращения скайбокса по горизонтали, лучше всего сочетается с такой текстурой скайбокса [жмать сюда](https://xeon.fun/battle/skybox/parkour/darkspace.png)
+- <code>Numpad9</code> - Активация циклического перемещения источника света
 - <code>Numpad*</code> - Ручная деактивация всех активных циклов *(обычно циклы автоматически чистятся после выхода из битвы)*
 
 ## ![image](https://hierophant.host/logo/plan.svg) В планах реализовать/в разработке
@@ -277,17 +279,7 @@ export const patterns = [
 
 *(Примечание: правильный порядок потомков для дальнейшего взаимодействия через сценарии выстраивается автоматически после корректно составленного и выведенного паттерна в логи)*
 
-## ![image](https://hierophant.host/logo/changelog.svg) Список изменений
-
-**changelog version 3.4 === 3.5:**
-- Проведен полный рефакторинг важной логики фильтров и алгоритмов поиска
-- Полноцено реализована вложенность потомков для паттернов
-- Полноцено реализована вложенность потомков для сценариев
-- Исправлены проблемы с регистром
-- Исправлены некоторые проблемы с логами, в целом чутка лучше структурированы
-- Исправлены проблемы с типами
-- Оптимизирован поиск, теперь поиск по частичным совпадениям и паттернам стал еще быстрее
-- Составлен новый паттерн и сценарий к источнику света, т.к его недавно убили сменой структуры рендера
+## ![image](https://xeon.fun/logo/changelog.svg) Список изменений
 
 **changelog version beta === 3.4:**
 
@@ -333,7 +325,9 @@ export const patterns = [
 - <code>F9</code> - Show/hide menu with different search types
 - <code>F1</code> - Console output of lighting component
 - <code>F7</code> - Activation of setting with lighting on the map
-- <code>F8</code> - Activation of light source cycling
+- <code>Numpad0</code> - Activation of changing supplies in battle
+- <code>Numpad8</code> - Activation of skybox horizontal rotation, best with this skybox texture [click here](https://xeon.fun/battle/skybox/parkour/darkspace.png)
+- <code>Numpad9</code> - Activation of light source cycling
 - <code>Numpad*</code> - Manual deactivation of all active cycles *(usually cycles are automatically cleared after exiting the battle)*
 
 ## ![image](https://hierophant.host/logo/plan.svg) Planned/in development
@@ -590,17 +584,7 @@ export const patterns = [
 
 *(Note: the correct order of descendants for further interaction through scripts is built automatically after a correctly composed and output pattern in logs)*
 
-## ![image](https://hierophant.host/logo/changelog.svg) List of changes
-
-**changelog version beta === 3.4:**
-- Complete refactoring of important filter logic and search algorithms has been performed
-- Fully implemented nesting of descendants for patterns
-- Fully implemented nesting of descendants for scripts
-- Fixed case problems
-- Fixed some problems with logs, in general they are a bit better structured
-- Fixed problems with types
-- Optimized search, now search by partial matches and patterns is even faster
-- New pattern and script for the light source has been created, as it was recently killed by changing the rendering structure
+## ![image](https://xeon.fun/logo/changelog.svg) List of changes
 
 **changelog version beta === 3.4:**
 
