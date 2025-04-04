@@ -11,6 +11,6 @@ export const applyActions = (root, event) => {actions.forEach(action => {
                 let components = cachedPaths.getCachedComponents(root, pattern);
                     if (!components) {
                         const result = getComponentByPattern(root, pattern); components = result.components; cachedPaths.updateCache(root, pattern, components);}
-                            if (components.length > 0) {console.log(`%cприменение сценария для: ${pattern.componentName}`, 'color: rgba(32, 255, 0, 1)'); components.forEach(({ component }) => {childActions(component, action);});}
+                            if (components.length > 0) {console.groupCollapsed(`%cприменение сценария для: ${pattern.componentName}`, 'color: rgba(32, 255, 0, 1)'); components.forEach(({component}) => {childActions(component, action);}); console.groupEnd();}
                                 else {console.log(`%c${pattern.componentName} недоступен для изменений`, 'color: rgba(255, 0, 0, 1)');}}}}); patterns.forEach(pattern => {
                                     if (event.keyCode === pattern.keyCode) {getComponentByPattern(root, pattern);}});};
